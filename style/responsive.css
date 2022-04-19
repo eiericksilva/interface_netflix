@@ -1,0 +1,51 @@
+@media screen and (max-width:800px) {
+    header .container {
+        display: flex;
+    }
+    
+    #toggle_menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 56px;
+        right: 0;
+        background: #141414;
+        height: auto;
+    }
+    .menu a {
+        padding: 5px;
+    }
+    .menu a:hover {
+        background-color: #e50914bb;
+        font-weight: 200;
+        font-size: 24px;
+    }
+
+    .container_menu.active .menu {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container_menu i {
+        display: flex;
+        padding-right: 20px;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 190px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+   .descricao{
+       width: 50%;
+   }
+   
+}
